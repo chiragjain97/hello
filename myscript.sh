@@ -2,12 +2,9 @@
 
 git add .
 
-DATE=$(date)
-
 git diff -w main
 
-
-git commit -m "Pushed to Remote at $Date"
+git commit -m "Pushed to Remote at"
 
 git push 
 
