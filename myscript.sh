@@ -4,7 +4,6 @@ git add .
 
 git diff -B main
 
-
 git commit -m "Pushed to Remote at"
 
 git push 
