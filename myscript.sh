@@ -1,6 +1,11 @@
 #! /bin/bash
 
-echo Hello World!
+git add .
 
-Name="Brad"
-echo "My name is ${Name}"
+DATE=$(date)
+
+git commit -m "Changes made on $DATE"
+
+git push 
+
+osascript -e "display notification 'pushed to remote repository' with title 'SUCCESS'"
