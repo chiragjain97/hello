@@ -2,8 +2,7 @@
 
 git add .
 
-git diff -B main
-
+git diff -w main
 
 git commit -m "Pushed to Remote at"
 
