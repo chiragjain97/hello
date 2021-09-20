@@ -4,7 +4,8 @@ git add .
 
 DATE=$(date)
 
-git diff main
+git diff -w main
+
 
 git commit -m "Pushed to Remote at $Date"
 
