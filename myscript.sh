@@ -1,8 +1,8 @@
 #! /bin/bash
 
-git add .
+#git -c core.whitespace=-trailing-space,-indent-with-non-tab,-tab-in-indent diff -U0 --word-diff-regex='[^[:space:]]' main
 
-git -c core.whitespace=-trailing-space,-indent-with-non-tab,-tab-in-indent diff -U0 --word-diff-regex='[^[:space:]]' main
+git add .
 
 git commit -m "Pushed to Remote at"
 
