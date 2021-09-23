@@ -2,7 +2,7 @@
 
 #git -c core.whitespace=-trailing-space,-indent-with-non-tab,-tab-in-indent diff -U0 --word-diff-regex='[^[:space:]]' main
 
- git diff main | grep -E 'android:id*|android:contentDescription.' 
+ git diff main... | grep -E 'android:id*|android:contentDescription.' 
 
 git add .
 
