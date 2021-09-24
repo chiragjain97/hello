@@ -1,6 +1,6 @@
 #! /bin/bash
 
-git diff main | grep -E 'android:contentDescription*|android:id.' >> /Users/chirag.jain_rr/Desktop/test.txt
+git diff main | grep -f 'chd.xml' >> /Users/chirag.jain_rr/Desktop/test.txt
 
 git add .
 
