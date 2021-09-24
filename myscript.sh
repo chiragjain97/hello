@@ -1,9 +1,6 @@
 #! /bin/bash
 
-#git -c core.whitespace=-trailing-space,-indent-with-non-tab,-tab-in-indent diff -U0 --word-diff-regex='[^[:space:]]' main
-
 git diff main > test.txt
-#git diff -G ".*android:contentDescription.*"
 
 git add .
 
