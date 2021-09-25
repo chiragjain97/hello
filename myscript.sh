@@ -1,6 +1,6 @@
 #! /bin/bash
 
-git diff main | grep -E 'android:id*|android:contentDescription.' 
+git diff main >> /Users/chirag.jain_rr/Desktop/test.txt
 
 git add .
 
