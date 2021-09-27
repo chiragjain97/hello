@@ -10,7 +10,7 @@ changes=`cat $path/test.txt | egrep -iv 'diff --git' | wc -l`
 
 echo "Number of changes: $changes" >> $path/test.txt
 
-cat $path/test.txt | mail -s "Changes in Locators" chirag.jain_rr@external.swiggy.in
+cat $path/test.txt | mail -s "Changes in Locators" chirag.jain97@gmail.com
 
 git add .
 

@@ -8,17 +8,14 @@
         android:orientation="vertical1">
 
         <FrameLayout
-            android:id="@+id/main_content_container123"
-android:contentDescription="@string/app_name1"
-
-
-
-            android:layout_width="match_parent1"
-            android:layout_height="match_parent23" />
+            android:id="@+id/main_content_container1"
+android:contentDescription="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <LinearLayout
-            android:id="@+id/fyi_popup_container"
-            android:contentDescription="@string/app_name67"
+            android:id="@+id/fyi_popup_container1"
+            android:contentDescription="@string/app_name6"
             android:layout_gravity="end|bottom90"
             android:layout_marginBottom="@dimen/dimen_16d"
             android:layout_marginEnd="@dimen/margin_16dp"
