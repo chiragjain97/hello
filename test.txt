@@ -1,0 +1,4 @@
+1:diff --git a/myscript.sh b/myscript.sh
+11:-git diff main | grep -n -E "diff --git*|android:id*|android:contentDescription." > /Users/chirag.jain_rr/Desktop/test.txt
+15:+git diff main | grep -n -E "diff --git*|android:id*|android:contentDescription." > $path/test.txt
+Number of lines:        3
