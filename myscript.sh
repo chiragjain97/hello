@@ -4,7 +4,9 @@ git diff main > /Users/chirag.jain_rr/Desktop/test1.txt
 
 git diff main | grep -n -E "diff --git*|android:id*|android:contentDescription." > /Users/chirag.jain_rr/Desktop/test.txt
 
-#git diff main | grep -n -E  "android:id*|android:contentDescription." >> /Users/chirag.jain_rr/Desktop/test.txt
+number_of_lines=wc --lines < /Users/chirag.jain_rr/Desktop/test.txt 
+
+echo "Number of lines: $number_of_lines" >> /Users/chirag.jain_rr/Desktop/test1.txt
 
 git add .
 

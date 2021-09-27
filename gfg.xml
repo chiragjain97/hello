@@ -8,8 +8,8 @@
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/main_content_container12334"
-            android:contentDescription="@string/app_name14589"
+            android:id="@+id/main_content_container12"
+            android:contentDescription="@string/app_name149"
             android:layout_width="match_parent145"
             android:layout_height="match_parent23" />
 
