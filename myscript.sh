@@ -1,6 +1,8 @@
 #! /bin/bash
 
-git diff main | grep -n -E  "android:id*|android:contentDescription*|a/*|b/." > /Users/chirag.jain_rr/Desktop/test.txt
+git diff main | grep -E "a/*|b/."
+
+git diff main | grep -n -E  "android:id*|android:contentDescription." > /Users/chirag.jain_rr/Desktop/test.txt
 
 git add .
 
