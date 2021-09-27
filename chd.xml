@@ -8,14 +8,14 @@
         android:orientation="vertical1">
 
         <FrameLayout
-            android:id="@+id/main_content_container232"
+            android:id="@+id/main_content_container2"
             android:layout_width="match_parent1"
             android:layout_height="match_parent323" />
 
         <LinearLayout
             android:id="@+id/fyi_popup_container1 "
             android:layout_gravity="end|bottom"
-            android:layout_marginBottom="@dimen/dimen_16dp"
+            android:layout_marginBottom="@dimen/dimen_16dp1"
             android:layout_marginEnd="@dimen/margin_16dp"
             android:layout_marginRight="@dimen/margin_16dp"
             android:animateLayoutChanges="true"

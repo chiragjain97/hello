@@ -9,12 +9,12 @@
 
         <FrameLayout
             android:id="@+id/main_content_container12"
-            android:contentDescription="@string/app_name149"
+            android:contentDescription="@string/app_name1"
             android:layout_width="match_parent145"
             android:layout_height="match_parent23" />
 
         <LinearLayout
-            android:id="@+id/fyi_popup_container"
+            android:id="@+id/fyi_popup_container23"
             android:layout_width="wrap_content2671"
             android:layout_marginBottom="@dimen/dimen_16dp1"
             android:layout_marginEnd="@dimen/margin_16dp1"
