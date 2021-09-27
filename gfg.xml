@@ -2,21 +2,21 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/base_layout"
+        android:id="@+id/base_layout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/main_content_container123"
-            android:contentDescription="@string/app_name14"
+            android:id="@+id/main_content_container1"
+            android:contentDescription="@string/app_name"
             android:layout_width="match_parent3"
             android:layout_height="match_parent23" />
 
         <LinearLayout
             android:id="@+id/fyi_popup_container23"
             android:layout_width="wrap_content2671"
-            android:contentDescription="@string/app_name900"
+            android:contentDescription="@string/app_name9"
             android:layout_marginBottom="@dimen/dimen_16dp1"
             android:layout_marginEnd="@dimen/margin_16dp1"
             android:layout_marginRight="@dimen/margin_16dp"
