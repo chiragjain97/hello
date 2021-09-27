@@ -6,7 +6,7 @@ git diff main > $path/test1.txt
 
 git diff main | grep -n -E "diff --git*|android:id*|android:contentDescription." > $path/test.txt
 
-number_of_lines=`cat $path/test.txt | egrep -iv 'diff --git' | wc -l`
+changes=`cat $path/test.txt | egrep -iv 'diff --git' | wc -l`
 
 echo "Number of changes: $changes" >> $path/test.txt
 
