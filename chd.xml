@@ -2,10 +2,10 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/base_layout1"
+        android:id="@+id/base_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent1"
+        android:orientation="vertical1">
 
         <FrameLayout
             android:id="@+id/main_content_container1"
