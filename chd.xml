@@ -8,8 +8,12 @@
         android:orientation="vertical1">
 
         <FrameLayout
-            android:id="@+id/main_content_container"
-            android:layout_width="match_parent"
+            android:id="@+id/main_content_container123"
+
+
+
+
+            android:layout_width="match_parent56"
             android:layout_height="match_parent23" />
 
         <LinearLayout
