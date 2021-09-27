@@ -8,9 +8,9 @@
         android:orientation="vertical1">
 
         <FrameLayout
-            android:id="@+id/main_content_container1"
+            android:id="@+id/main_content_container"
             android:layout_width="match_parent1"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent3" />
 
         <LinearLayout
             android:id="@+id/fyi_popup_container1 "
