@@ -10,6 +10,8 @@ changes=`cat $path/test.txt | egrep -iv 'diff --git' | wc -l`
 
 echo "Number of changes: $changes" >> $path/test.txt
 
+mutt -s "Changes in Locators" -a $path/test.txt chirag.jain_rr@external.swiggy.in
+
 git add .
 
 git commit -m "Pushed to Remote at"

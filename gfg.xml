@@ -2,7 +2,7 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/base_layout12"
+        android:id="@+id/base_layout123"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
@@ -11,9 +11,9 @@
 
         <FrameLayout
             android:id="@+id/main_content_container123"
-            android:contentDescription="@string/app_name"
+            android:contentDescription="@string/app_name00"
 
-            
+
             android:layout_width="match_parent9"
             android:layout_height="match_parent" />
 
@@ -21,7 +21,7 @@
             android:id="@+id/fyi_popup_container23"
             android:layout_width="wrap_content2671"
             android:contentDescription="@string/app_name9"
-            android:layout_marginBottom="@dimen/dimen_16dp1"
+            android:layout_marginBottom="@dimen/dimen_16dp19"
             android:layout_marginEnd="@dimen/margin_16dp1"
             android:layout_marginRight="@dimen/margin_16dp"
             android:animateLayoutChange="true"
