@@ -2,18 +2,20 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/base_layout"
+        android:id="@+id/base_layout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/main_content_container1"
+            android:id="@+id/main_content_container12"
+            android:contentDescription="@string/app_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
         <LinearLayout
             android:id="@+id/fyi_popup_container"
+            android:contentDescription=""
             android:layout_width="wrap_content"
             android:layout_marginBottom="@dimen/dimen_16dp"
             android:layout_marginEnd="@dimen/margin_16dp"
@@ -22,7 +24,7 @@
             android:orientation="vertical"
             android:visibility="@{vm.mFYIPopupVM != null, default = gone}"
             bind:fly_in_from_bottom="@{vm.mFYIPopupVM != null}"
-            bind:fly_out_from_bottom="@{vm.mFYIPopupClosed}">
+            bind:fly_out_from_bottom="@{vm.mFYIPopupClosed}"> 
 
         </LinearLayout>
     </FrameLayout>
