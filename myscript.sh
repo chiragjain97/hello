@@ -8,7 +8,7 @@ number_of_lines=`cat $path/test.txt | egrep -iv 'diff --git' | wc -l`
 
 changes=$((number_of_lines / 2))
 
-echo "Number of lines: $changes" >> $path/test.txt
+echo "Number of Changes: $changes" >> $path/test.txt
 
 git add .
 
