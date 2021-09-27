@@ -15,7 +15,6 @@
 
         <LinearLayout
             android:id="@+id/fyi_popup_container"
-            android:contentDescription=""
             android:layout_width="wrap_content"
             android:layout_marginBottom="@dimen/dimen_16dp"
             android:layout_marginEnd="@dimen/margin_16dp"
