@@ -1,6 +1,6 @@
 #! /bin/bash
 
-path=pwd
+path=/Users/chirag.jain_rr/Desktop
 
 git diff main | grep -n -E "diff --git*|android:id*|android:contentDescription." > $path/test.txt
 
