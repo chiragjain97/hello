@@ -2,11 +2,11 @@
 
 path=`pwd`
 
-git diff main > $path/test1.txt
+#git diff main > $path/test1.txt
 
 git diff main | grep -n -E "diff --git*|android:id*|android:contentDescription." > $path/test.txt
 
-number_of_lines=`cat $path/test.txt | wc -l`
+number_of_lines=`cat $path/test.txt |egrep -iv "git" | wc -l`
 
 echo "Number of lines: $number_of_lines" >> $path/test.txt
 
