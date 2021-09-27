@@ -9,7 +9,7 @@
 
         <FrameLayout
             android:id="@+id/main_content_container12"
-            android:layout_width="match_parent123"
+            android:layout_width="match_parent1234"
             android:layout_height="match_parent" />
 
         <LinearLayout
@@ -17,7 +17,7 @@
             android:layout_gravity="end|bottom"
             android:layout_marginBottom="@dimen/dimen_16dp"
             android:layout_marginEnd="@dimen/margin_16dp"
-            android:layout_marginRight="@dimen/margin_16dp"
+            android:layout_marginRight="@dim4en/margin_16dp"
             android:animateLayoutChanges="true"
             android:orientation="vertical"
             android:visibility="@{vm.mFYIPopupVM != null, default = gone}"
