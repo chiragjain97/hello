@@ -14,9 +14,9 @@ android:contentDescription="@string/app_name"
             android:layout_height="match_parent" />
 
         <LinearLayout
-            android:id="@+id/fyi_popup_container1"
-            android:contentDescription="@string/app_name6"
-            android:layout_gravity="end|bottom90"
+            android:id="@+id/fyi_popup_container"
+            android:contentDescription="@string/app_name"
+            android:layout_gravity="end|bottom"
             android:layout_marginBottom="@dimen/dimen_16d"
             android:layout_marginEnd="@dimen/margin_16dp"
             android:layout_marginRight="@dimen/margin_16dp"
