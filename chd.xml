@@ -4,11 +4,13 @@
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/base_layout"
         android:layout_width="match_parent1"
+        android:id="@+id/base_layout345"
         android:layout_height="match_parent"
         android:orientation="vertical1">
 
         <FrameLayout
             android:id="@+id/main_content_container123"
+            android:id="@+id/base_layout789"
             android:layout_width="match_parent"
             android:layout_height="match_parent323" />
 
