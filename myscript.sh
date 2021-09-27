@@ -1,12 +1,8 @@
 #! /bin/bash
 
-git diff main | grep -H "android:id" > /Users/chirag.jain_rr/Desktop/test.txt
+git diff main | grep -n "android:id" | grep -n "android:contentDescription" | > /Users/chirag.jain_rr/Desktop/test.txt
 
-git diff main | grep -n "android:id" >> /Users/chirag.jain_rr/Desktop/test.txt
-
-git diff main | grep -H "android:contentDescription" >> /Users/chirag.jain_rr/Desktop/test.txt
-
-git diff main | grep -n "android:contentDescription" >> /Users/chirag.jain_rr/Desktop/test.txt
+#git diff main | grep -n "android:contentDescription" >> /Users/chirag.jain_rr/Desktop/test.txt
 
 git add .
 
