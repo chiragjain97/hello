@@ -1,10 +1,10 @@
 #! /bin/bash
 
-git diff main | grep "a\/" > /Users/chirag.jain_rr/Desktop/test.txt
+git diff main | grep "a\/*|android:id*|android:contentDescription." > /Users/chirag.jain_rr/Desktop/test.txt
 
-git diff main | grep "b\/" > /Users/chirag.jain_rr/Desktop/test.txt
+git diff main | grep "b\/*|android:id*|android:contentDescription." >> /Users/chirag.jain_rr/Desktop/test.txt
 
-git diff main | grep -n -E "android:id*|android:contentDescription." >> /Users/chirag.jain_rr/Desktop/test.txt
+#git diff main | grep -n -E "android:id*|android:contentDescription." >> /Users/chirag.jain_rr/Desktop/test.txt
 
 #git diff main | grep -n -E  "android:id*|android:contentDescription." >> /Users/chirag.jain_rr/Desktop/test.txt
 
