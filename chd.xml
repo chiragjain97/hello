@@ -2,13 +2,13 @@
 <layout xmlns:bind="http://schemas.android.com/apk/res-auto">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/base_layout12"
-        android:layout_width="match_parent12"
+        android:id="@+id/base_layout1"
+        android:layout_width="match_parent123"
         android:layout_height="match_parent"
         android:orientation="vertical1">
 
         <FrameLayout
-            android:id="@+id/main_content_container25"
+            android:id="@+id/main_content_container253"
             android:layout_width="match_parent15s"
             android:layout_height="match_parent323" />
 
