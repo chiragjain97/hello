@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-git diff main | grep "a\/" | grep "b\/" | grep -n -E "android:id*|android:contentDescription." > /Users/chirag.jain_rr/Desktop/test.txt
+git diff main | grep "a\/" | grep "b\/" | grep -E "android:id*|android:contentDescription." > /Users/chirag.jain_rr/Desktop/test.txt
 
 #git diff main | grep -n -E  "android:id*|android:contentDescription." >> /Users/chirag.jain_rr/Desktop/test.txt
 

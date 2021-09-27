@@ -9,7 +9,7 @@
 
         <FrameLayout
             android:id="@+id/main_content_container12"
-            android:layout_width="match_parent12"
+            android:layout_width="match_parent123"
             android:layout_height="match_parent" />
 
         <LinearLayout
