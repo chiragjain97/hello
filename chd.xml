@@ -13,9 +13,9 @@
             android:layout_height="match_parent323" />
 
         <LinearLayout
-            android:id="@+id/fyi_popup_container1 "
+            android:id="@+id/fyi_popup_container156"
             android:layout_gravity="end|bottom"
-            android:layout_marginBottom="@dimen/dimen_16dp1"
+            android:layout_marginBottom="@dimen/dimen_16d"
             android:layout_marginEnd="@dimen/margin_16dp"
             android:layout_marginRight="@dimen/margin_16dp"
             android:animateLayoutChanges="true"
