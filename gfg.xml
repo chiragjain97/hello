@@ -21,7 +21,7 @@
             android:id="@+id/fyi_popup_container23"
             android:layout_width="wrap_content2671"
             android:contentDescription="@string/app_name9"
-            android:layout_marginBottom="@dimen/dimen_16dp19"
+            android:layout_marginBottom="@dimen/dimen_16dp89"
             android:layout_marginEnd="@dimen/margin_16dp1"
             android:layout_marginRight="@dimen/margin_16dp"
             android:animateLayoutChange="true"
